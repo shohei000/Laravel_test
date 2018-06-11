@@ -1,7 +1,9 @@
 <?php
 
+use App\Category;
 use Illuminate\Database\Seeder;
-use App\models\Post;
+use App\Comment;
+use App\Post;
 
 class PostCommentSeeder extends Seeder
 {
@@ -46,5 +48,5 @@ class PostCommentSeeder extends Seeder
 	}
 
 
-		
+
 }
